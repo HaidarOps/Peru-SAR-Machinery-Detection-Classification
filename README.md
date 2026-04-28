@@ -1,9 +1,8 @@
 # Peruvian Amazon — Illegal Activity Detection Pipeline
 ### SAR-based disturbance classification with RADD alert integration
 
-**Author:** [Your Name]  
-**Institution:** [Your University]  
-**Submitted:** April 2026  
+**Author:** Haidar Chawki Kassem 
+**Institution:** Queen Mary University of London   
 **Platform:** Google Earth Engine (JavaScript)  
 
 ---
