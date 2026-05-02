@@ -162,6 +162,20 @@ Evaluated using polygon-level train/test split (75% train / 25% test) to prevent
 
 If using this workflow or dataset, please cite:
 
-> Haidar Chawki Kassem (2026). *Peruvian Amazon Illegal Activity Detection using SAR and RADD Alerts*. Queen Mary University of London, Final Year Dissertation.
+## Citation
 
+If using this workflow or dataset, please cite:
+
+**This work:**
+> Kassem, H.C. (2026). *Peruvian Amazon Illegal Activity Detection using SAR and RADD Alerts*. Queen Mary University of London, Final Year Dissertation.
+
+**Datasets used:**
 > Dávalos, L.M., Sanchez, K.M. & Armenteras, D. (2016). Data from: Deforestation and coca cultivation rooted in twentieth-century development projects. *Dryad*. https://doi.org/10.5061/dryad.1hb1f
+
+> Reiche, J., Mullissa, A., Slagter, B., Gou, Y., Tsendbazar, N., Odongo-Braun, C., Vollrath, A., Weisse, M., Stolle, F., Pickens, A., Donchyts, G., Clinton, N., Gorelick, N. & Herold, M. (2021). Forest disturbance alerts for the Congo Basin using Sentinel-1. *Environmental Research Letters*, 16(2), 024005. https://doi.org/10.1088/1748-9326/abd0a9
+
+> Hansen, M.C., Potapov, P.V., Moore, R., Hancher, M., Turubanova, S.A., Tyukavina, A., Thau, D., Stehman, S.V., Goetz, S.J., Loveland, T.R., Kommareddy, A., Egorov, A., Chini, L., Justice, C.O. & Townshend, J.R.G. (2013). High-resolution global maps of 21st-century forest cover change. *Science*, 342(6160), 850–853. https://doi.org/10.1126/science.1244693
+
+> Farr, T.G., Rosen, P.A., Caro, E., Crippen, R., Duren, R., Hensley, S., Kobrick, M., Paller, M., Rodriguez, E., Roth, L., Seal, D., Shaffer, S., Shimada, J., Umland, J., Werner, M., Oskin, M., Burbank, D. & Alsdorf, D. (2007). The Shuttle Radar Topography Mission. *Reviews of Geophysics*, 45(2). https://doi.org/10.1029/2005RG000183
+
+> UNEP-WCMC & IUCN (2024). Protected Planet: The World Database on Protected Areas (WDPA). Cambridge, UK: UNEP-WCMC and IUCN. https://www.protectedplanet.net
