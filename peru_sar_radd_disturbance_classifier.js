@@ -313,12 +313,12 @@ var peruProtected = wdpa.filterBounds(peruGeom);
 var protectedMask = ee.Image().byte().paint(peruProtected, 1).selfMask();
 
 // ============================================================
-// 10. FOCUS REGION — Madre de Dios
+// 10. FOCUS REGION
 // Primary study area: known illegal gold mining corridor
 // RADD alerts restricted to protected areas within this extent
 // Alert centroids extracted at 500m scale for processing
 // ============================================================
-var focusRegion = ee.Geometry.Rectangle([-71.5, -13.5, -68.5, -11.5]);
+var focusRegion = ee.Geometry.Rectangle([-73.5, -11.5, -70.5, -9.5]);
 
 var raddInProtectedFocus = recentRADDPeru.updateMask(protectedMask).clip(focusRegion);
 
@@ -332,7 +332,7 @@ var alertPatches = raddInProtectedFocus.reduceToVectors({
   tileScale: 4
 });
 
-print('RADD alerts in protected areas (Madre de Dios):', alertPatches.size());
+print('RADD alerts in protected areas:', alertPatches.size());
 
 // ============================================================
 // 11. ALERT SITE CLASSIFICATION — majority vote
@@ -370,7 +370,6 @@ var alertSiteResults = alertsNumbered.map(function(alert) {
   var nHistorical = pixels.filter(ee.Filter.eq('classification', 1)).size();
   var nActive     = pixels.filter(ee.Filter.eq('classification', 2)).size();
   var nCoca       = pixels.filter(ee.Filter.eq('classification', 3)).size();
-  var nFresh      = pixels.filter(ee.Filter.eq('classification', 4)).size();
 
   var maxCount = nForest.max(nHistorical).max(nActive).max(nCoca).max(nFresh);
 
@@ -473,7 +472,6 @@ var low      = alertsFinal.filter(ee.Filter.eq('threat_level', 'LOW'));
 print('');
 print('============================================');
 print(' ILLEGAL ACTIVITY SCREENING RESULTS');
-print(' Madre de Dios Focus Region');
 print('============================================');
 print('Total RADD alert sites analysed:', alertsFinal.size());
 print('CRITICAL:', critical.size());
@@ -507,7 +505,7 @@ var today = '2026_04_20';
 
 Export.image.toDrive({
   image:       exportImage,
-  description: 'disturbance_classification_madre_de_dios_' + today,
+  description: 'disturbance_classification' + today,
   folder:      'peru_detections',
   region:      focusRegion,
   scale:       100,
@@ -519,7 +517,7 @@ Export.image.toDrive({
 
 Export.table.toDrive({
   collection:  alertsFinal,
-  description: 'alert_sites_madre_de_dios_' + today,
+  description: 'alert_sites' + today,
   folder:      'peru_detections',
   fileFormat:  'CSV'
 });
