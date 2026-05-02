@@ -53,7 +53,7 @@ peru-sar-illegal-activity-detection/
 ├── README.md
 │
 ├── src/
-│   └── main_classification_2026.js       ← annotated GEE pipeline script
+│   └── peru_sar_radd_disturbance_classifier.js       ← annotated GEE pipeline script
 │
 ├── data/
 │   ├── training_intact_forest.geojson          ← reference copy of training polygons
