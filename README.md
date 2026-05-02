@@ -162,6 +162,6 @@ Evaluated using polygon-level train/test split (75% train / 25% test) to prevent
 
 If using this workflow or dataset, please cite:
 
-> [Your Name] (2026). *Peruvian Amazon Illegal Activity Detection using SAR and RADD Alerts*. [Your University], Final Year Dissertation.
+> Haidar Chawki Kassem (2026). *Peruvian Amazon Illegal Activity Detection using SAR and RADD Alerts*. Queen Mary University of London, Final Year Dissertation.
 
 > Dávalos, L.M., Sanchez, K.M. & Armenteras, D. (2016). Data from: Deforestation and coca cultivation rooted in twentieth-century development projects. *Dryad*. https://doi.org/10.5061/dryad.1hb1f
