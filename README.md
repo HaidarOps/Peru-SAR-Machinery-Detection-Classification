@@ -162,10 +162,6 @@ Evaluated using polygon-level train/test split (75% train / 25% test) to prevent
 
 If using this workflow or dataset, please cite:
 
-## Citation
-
-If using this workflow or dataset, please cite:
-
 **This work:**
 > Kassem, H.C. (2026). *Peruvian Amazon Illegal Activity Detection using SAR and RADD Alerts*. Queen Mary University of London, Final Year Dissertation.
 
