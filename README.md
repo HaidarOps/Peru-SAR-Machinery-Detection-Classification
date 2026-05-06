@@ -37,7 +37,7 @@ A Random Forest classifier trained on manually delineated training polygons dist
 
 The complete pipeline including all training polygons is available as a shared Google Earth Engine script:
 
-**[Click here to open in Google Earth Engine]((https://code.earthengine.google.com/24f11a4a8e1fec02a9724477364900d7))**
+**[Click here to open in Google Earth Engine]((https://code.earthengine.google.com/1d5e4a49c1d6c66a2310fec187d638c4))**
 
 > A free Google Earth Engine account is required. Register at [earthengine.google.com](https://earthengine.google.com).
 
